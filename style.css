@@ -1,0 +1,50 @@
+body {
+  color: lightslategray;
+}
+
+blockquote {
+  background-color: rgba(0, 12, 24, 0.05);
+  font-style: oblique;
+}
+
+a {
+  border: 1px dashed red;
+}
+
+em {
+  color: darkred;
+}
+p{
+   border: 5px ridge  red;
+
+}
+
+.variant-em {
+  background-color: greenyellow;
+  color: initial;
+  font-weight: bold;
+  font-style: inherit;
+  
+}
+
+ul {
+  background-color: unset;
+}
+
+ul li {
+  padding: 16px;
+}
+
+.link1 a {
+  color: inherit;
+}
+
+
+.link2 a {
+  color: initial;
+  font-weight: bold;
+}
+
+.link3 a {
+  color: unset;
+}
