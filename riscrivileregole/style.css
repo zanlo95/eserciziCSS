@@ -1,0 +1,26 @@
+:root{
+    --body-bg-new-color: #8f5e3d;
+    --ball-custom-width: calc(50% + 10%);
+    --ball-custom-height: calc(60px + 20px);
+    --ball-custom-bgcolor: #1a9da1;
+}
+
+
+body {
+    background-color: var(--body-bg-new-color, rgb(187, 26, 26));
+}
+
+.ball {
+    width: var(--ball-custom-width);
+    height: var(--ball-custom-height);
+    background-color: var(--ball-custom-bgcolor, #121212);
+    border-radius: 50px;
+}
+
+p{
+    color: #9282b8;
+    text-align: center;
+    background-color: aqua;
+    width: var(--ball-custom-width);
+    margin-left: 20%;
+}
