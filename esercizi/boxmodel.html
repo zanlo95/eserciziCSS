@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .bm {
+            background-color: aqua;
+            padding: 10px;
+            margin: 10px;
+            width: 300px;
+            height: 200px;
+            border: 1px solid black;
+        }
+
+        .bm p {
+            background-color: green;
+            padding: 5px;
+            margin: 45px;
+            border: 2px dotted black;
+            text-align: center;
+        }
+
+        .bm-atl {
+            box-sizing: border-box;
+        }
+
+        .flexcontainer {
+            display: flex;
+            display: -webkit-flex;
+            flex-flow: column ;
+            /* flex: 4 300px; */
+            justify-content: space-around;
+
+        }
+
+        section div {
+            /* unione di flex basis + flex grow/f.shrink */
+            flex: 1 300px;
+            /* dimensione minima */
+            /* flex-basis: 100px; */
+            /* definisce lo spazio di assegnazione in espansione */
+            /* flex-grow: 1; */
+        }
+
+        section div:nth-last-child(10){
+        order: 1;
+            }
+    </style>
+</head>
+
+<body>
+    <section class="flexcontainer">
+        <!-- <div class="bm">
+            <p>444 box</p>
+        </div> -->
+        <div class="bm">
+            <p>444 box</p>
+            <p>444 box</p>
+            <p>444 box</p>
+        </div>
+        <!-- <div class="bm">
+            <p>primo box</p>
+        </div>
+        <div class="bm">
+            <p>444 box</p>
+        </div>
+        <div class="bm">
+            <p>primo box</p>
+        </div>
+        <div class="bm">
+            <p>444 box</p>
+        </div>
+        <div class="bm">
+            <p>primo box</p>
+        </div>
+        <div class="bm">
+            <p>444 box</p>
+        </div>
+        <div class="bm">
+            <p>primo box</p>
+        </div>
+        <div class="bm">
+            <p>sono il primissimo box</p>
+        </div> -->
+
+    </section>
+</body>
+
+</html>

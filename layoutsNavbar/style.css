@@ -51,6 +51,7 @@ body {
 
 .nav-item button {
     border: #34393f;
+    background-color: rgba(0, 102, 255, 0);
 }
 .dropdown-menu li {
     margin: 12px;
