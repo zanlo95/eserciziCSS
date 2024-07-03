@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        box-sizing: border-box;
+        padding: 0;
+    }
+    body{
+        height: 100vh;
+    }
+    .container{
+        height: 100%;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        background-color: blue;
+        margin-left: 10px;
+    }
+
+    .first{
+        display: flex;
+        flex-direction: column;
+        height: 50%;
+        background-color: azure;
+    }
+    .fakepic{
+        height: 50%;
+        width: 100%;
+        background-color: rgb(151, 155, 151);
+    }
+
+    .fakepic p{
+        text-align: center;
+        margin-top: 20%;
+    }
+
+    .second{
+        display: flex;
+        flex-direction: column;
+        height: 50%;
+        background-color:aqua;
+        gap: 15px;
+    }
+    .pic{
+        display: flex;
+        height: 20%;
+        width: 100%;
+        justify-content: center;
+        background-color: rgb(148, 148, 134);
+    }
+    .pic p{
+        align-self: center;
+        background-color: aqua;        
+    }
+</style>
+<body>
+    <main class="container">
+        <article class="first">
+            <h1>ABOUT ME</h1>
+            <h3>photo of me</h3>
+            <div class="fakepic"><p>
+                <p>picture</p>
+            </p></div>
+            <p>
+            some text
+            </p>
+        </article>
+        <article class="second">
+            <h2>More Text</h2>
+            <h3>lorem ipsum</h3>
+            <div class="pic"><p>picture</p></div>
+            <div class="pic"><p>picture</p></div>
+            <div class="pic"><p>picture</p></div>
+        </article>
+    </main>
+</body>
+</html>
